@@ -1,0 +1,24 @@
+Variación de Indicadores:
+El objetivo del programa es obtener los valores para de diferentes indicadores 
+economicos.
+
+Para el funcionamiento se debe seguir los siguientes pasos:
+1. Ingresar una opcion de indicador a consultar:
+	1. Para el IPC.
+	2. Para la UF.
+	3. Para la UTM.
+2. Debe ingresar las fechas de inicio y fin para la consulta.
+3. Con estos datos se realiza la consulta a la API del SBIF y se guarda la información obtenida.
+4. La siguiente celda ejecuta la lectura del archivo generado y guarda en listas la información obtenida.
+	1. En lista_valor guarda los valores obtenidos.
+	2. En lista_fecha guarda las fecha obtenidas.
+5. Con estos valores se obtiene el promedio de los valores y la desviación estandar de la muestra.
+6. En la siguiente celda se genera un gráfico con la data obtenida.
+
+Modulos utilizados:
+
+statistics: modulo que tiene funciones de estadisticas.
+literal_eval: transforma un string valido en un diccionario.
+matplotlib: modulo que genera gráficos.
+
+Autor: Leandro Reyes Castillo.
