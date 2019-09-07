@@ -1,7 +1,7 @@
 Variación de Indicadores:
 El objetivo del programa es obtener los valores para de diferentes indicadores 
 economicos.
-
+Para iniciar hay que abrir el archivo Indicadores.ipynb
 Para el funcionamiento se debe seguir los siguientes pasos:
 1. Ingresar una opcion de indicador a consultar:
 	1. Para el IPC.
